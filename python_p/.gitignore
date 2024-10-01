@@ -28,8 +28,6 @@ wheels/
 *.egg-info/
 
 # PyInstaller
-#  Usually these files are written by a Python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -87,7 +85,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-python_p/financial_p/
 
 # PyCharm
 .idea/
