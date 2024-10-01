@@ -1,0 +1,145 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+/python_p/financial_p/  # python_p 가상환경 폴더
+/python_p/financial_p/lib/
+/python_p/financial_p/include/
+/python_p/financial_p/bin/
+/python_p/financial_p/share/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.envrc
+*.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+python_p/.idea/
+*.idea
+*.iml
+
+# VSCode
+python_p/.vscode/
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Temporary files
+*.temp
+*.tmp
+*.swp
+
+# Spring project-specific ignore rules
+HELP.md
+spring_p/.gradle
+spring_p/build/
+!spring_p/gradle/wrapper/gradle-wrapper.jar
+!spring_p/**/src/main/**/build/
+!spring_p/**/src/test/**/build/
+
+### STS ###
+spring_p/.apt_generated
+spring_p/.classpath
+spring_p/.factorypath
+spring_p/.project
+spring_p/.settings
+spring_p/.springBeans
+spring_p/.sts4-cache
+spring_p/bin/
+!spring_p/**/src/main/**/bin/
+!spring_p/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+spring_p/.idea
+*.iws
+*.iml
+*.ipr
+spring_p/out/
+!spring_p/**/src/main/**/out/
+!spring_p/**/src/test/**/out/
+
+### NetBeans ###
+spring_p/nbproject/private/
+spring_p/nbbuild/
+spring_p/dist/
+spring_p/nbdist/
+spring_p/.nb-gradle/
+
+### VS Code ###
+spring_p/.vscode/
+/python_p/financial_p
