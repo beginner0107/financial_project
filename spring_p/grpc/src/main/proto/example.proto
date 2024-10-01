@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.example.grpc;
+
+option java_multiple_files = true;
+option java_package = "com.example.grpc";  // .proto 파일로 생성될 클래스 파일이 위치할 패키지명
+option java_outer_classname = "FinancialDataServiceProto";
+
+// 서비스 정의
+service FinancialDataService {
+  // gRPC 메서드 정의
+  rpc GetStockPrice (StockRequest) returns (StockResponse);
+}
+
+// 메시지 정의
+message StockRequest {
+  string symbol = 1;  // 주식 심볼 요청
+}
+
+message StockResponse {
+  string symbol = 1;   // 주식 심볼
+  float price = 2;     // 주식 가격
+  string timestamp = 3; // 응답 시간
+}
